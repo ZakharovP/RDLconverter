@@ -1,0 +1,15 @@
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\RDLconverter.exe.config
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\RDLconverter.exe
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\RDLconverter.pdb
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\obj\Debug\RDLconverter.csprojAssemblyReference.cache
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\obj\Debug\RDLconverter.csproj.CoreCompileInputs.cache
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\obj\Debug\RDLconverter.exe
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\obj\Debug\RDLconverter.pdb
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\EPPlus.dll
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\EPPlus.xml
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Petr\source\repos\RDLconverter\RDLconverter\obj\Debug\RDLconverter.csproj.CopyComplete

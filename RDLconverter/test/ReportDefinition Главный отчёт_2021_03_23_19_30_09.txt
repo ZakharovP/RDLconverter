@@ -1,0 +1,1903 @@
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <rd:ConvertorVersion>2.5</rd:ConvertorVersion>
+  <Language>ru-RU</Language>
+  <Author>Семизарова Светлана Николаевна Финтех ©</Author>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>160.9pt</Height>
+        <ReportItems>
+          <Tablix Name="Tablix2">
+            <DataSetName>Form_539_Data</DataSetName>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>59.1pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>547.0pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>18.7pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>№ п/п</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Наименование показателя</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox11">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>План</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox12">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Факт</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>16.3pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox13">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![ПОЛМБ_554_Sim_Code].Value</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox14">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![ПОЛМБ_554_Name].Value</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style></Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox15">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(IsNothing(Fields![Column_A19ED520_A4E0_CD61_F845_E8307F6757D3__crossing].Value), Fields![Column_A19ED520_A4E0_CD61_F845_E8307F6757D3].Value, Fields![Column_A19ED520_A4E0_CD61_F845_E8307F6757D3__crossing].Value)</Value>
+                                  <Style>
+                                    <Format>### ### ### ### ##0.00</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>=IIF(IsNothing(Fields![Column_A19ED520_A4E0_CD61_F845_E8307F6757D3__crossing].Value), "General", "Center")</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox16">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(IsNothing(Fields![Column_6169DE94_EC3F_209F_3934_0A316E6DAB82__crossing].Value), Fields![Column_6169DE94_EC3F_209F_3934_0A316E6DAB82].Value, Fields![Column_6169DE94_EC3F_209F_3934_0A316E6DAB82__crossing].Value)</Value>
+                                  <Style>
+                                    <Format>### ### ### ### ##0.00</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>=IIF(IsNothing(Fields![Column_6169DE94_EC3F_209F_3934_0A316E6DAB82__crossing].Value), "General", "Center")</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Tablix2_Details_Group"></Group>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Left>0.8pt</Left>
+            <Top>75.3pt</Top>
+            <SortExpressions>
+              <SortExpression>
+                <Value>=Fields![ПОЛМБ_554_page].Value</Value>
+                <Direction>Ascending</Direction>
+              </SortExpression>
+              <SortExpression>
+                <Value>=Fields![ПОЛМБ_554_row].Value</Value>
+                <Direction>Ascending</Direction>
+              </SortExpression>
+            </SortExpressions>
+          </Tablix>
+          <Tablix Name="Tablix1">
+            <DataSetName>Form_539_Data</DataSetName>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>59.1pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>547.0pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>85.8pt</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>12.4pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox18">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox21">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Таблица 4</Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>17.4pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox30">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox31">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Передача полномочий по решению вопросов местного значения </Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox32">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox33">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>20.1pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox34">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox35">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![Period_Name].Value</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox36">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox37">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>17.1pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox38">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox39">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![Source_Name].Value</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <VerticalAlign>Middle</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox40">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox41">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember></TablixMember>
+                <TablixMember></TablixMember>
+                <TablixMember></TablixMember>
+                <TablixMember></TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Left>0.0pt</Left>
+            <Top>2.3pt</Top>
+            <SortExpressions>
+              <SortExpression>
+                <Value>=Fields![ПОЛМБ_554_page].Value</Value>
+                <Direction>Ascending</Direction>
+              </SortExpression>
+              <SortExpression>
+                <Value>=Fields![ПОЛМБ_554_row].Value</Value>
+                <Direction>Ascending</Direction>
+              </SortExpression>
+            </SortExpressions>
+            <Height>12pt</Height>
+            <Width>85pt</Width>
+          </Tablix>
+          <Tablix Name="Tablix4" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+            <DataSetName>ПодписантыОтчёта1OutputTable</DataSetName>
+            <Style>
+              <Border>
+                <Color>White</Color>
+              </Border>
+            </Style>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>202.0pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>166.2pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>15.9pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>221.7pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>86.2pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>83.2pt</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>13.0pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox67">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![Position].Value</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style></Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox68">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style></Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <BottomBorder>
+                              <Style>Solid</Style>
+                            </BottomBorder>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox72">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition"></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition"></Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox73">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![Name].Value</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <BottomBorder>
+                              <Style>Solid</Style>
+                            </BottomBorder>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox4">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox1">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields![Post_Order_Number].Value=2,Fields![Tel].Value,"")</Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>17.0pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox74">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox75">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>(подпись)</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox76">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox77">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>(расшифровка подписи)</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox5">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields![Post_Order_Number].Value=2,"(телефон)","")</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <TopBorder>
+                              <Style>Solid</Style>
+                            </TopBorder>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>16.5pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox83">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>"____" ___________________ 20__  г.</Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition"></Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox84">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox94">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox95">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value></Value>
+                                  <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+                            <PaddingLeft>2.83pt</PaddingLeft>
+                            <PaddingRight>2.83pt</PaddingRight>
+                            <PaddingTop>2.83pt</PaddingTop>
+                            <PaddingBottom>2.83pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Tablix4_Details_Group"></Group>
+                  <TablixMembers>
+                    <TablixMember />
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember />
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Left>0.0pt</Left>
+            <Top>114.4pt</Top>
+            <Height>12pt</Height>
+            <Width>85pt</Width>
+            <SortExpressions>
+              <SortExpression>
+                <Value>=Fields![Post_Order_Number].Value</Value>
+                <Direction>Ascending</Direction>
+              </SortExpression>
+            </SortExpressions>
+          </Tablix>
+          <Textbox Name="Textbox2">
+            <Height>12pt</Height>
+            <Width>85.04pt</Width>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Text</Value>
+                  </TextRun>
+                </TextRuns>
+              </Paragraph>
+            </Paragraphs>
+            <Left>0pt</Left>
+            <Top>0.04pt</Top>
+          </Textbox>
+          <Tablix Name="TablixElectronicDigitalSignature">
+            <Visibility>
+              <Hidden>=IIF(Parameters!ShowEcp.Value = False OR RowNumber("ПодписантыОтчёта1OutputTable")=0,true,false)</Hidden>
+            </Visibility>
+            <DataSetName>ПодписантыОтчёта1OutputTable</DataSetName>
+            <NoRowsMessage />
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>605.8pt</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>169.4pt</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>10.0pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextboxElectronicDigitalSignature2">
+                          <KeepTogether>false</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![ecp].Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <CanGrow>true</CanGrow>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>=IIF(IsNothing(Fields![ecp_error].Value) OR Fields![ecp_error].Value="","1pt","3pt")</Width>
+                            </Border>
+                            <PaddingLeft>3pt</PaddingLeft>
+                            <PaddingRight>3pt</PaddingRight>
+                            <PaddingTop>3pt</PaddingTop>
+                            <PaddingBottom>3pt</PaddingBottom>
+                            <LeftBorder>
+                              <Color>=IIF(IsNothing(Fields![ecp_error].Value) OR Fields![ecp_error].Value="","White",IIF(Fields![ecp_error].Value=" ","Orange","Tomato"))</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>=IIF(IsNothing(Fields![ecp_error].Value) OR Fields![ecp_error].Value="","White",IIF(Fields![ecp_error].Value=" ","Orange","Tomato"))</Color>
+                            </RightBorder>
+                            <TopBorder>
+                              <Color>=IIF(IsNothing(Fields![ecp_error].Value) OR Fields![ecp_error].Value="","White",IIF(Fields![ecp_error].Value=" ","Orange","Tomato"))</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>=IIF(IsNothing(Fields![ecp_error].Value) OR Fields![ecp_error].Value="","White",IIF(Fields![ecp_error].Value=" ","Orange","Tomato"))</Color>
+                            </BottomBorder>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextboxElectronicDigitalSignature36">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields![ecp_error].Value</Value>
+                                  <Style>
+                                    <Color>DarkRed</Color>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <PaddingLeft>30pt</PaddingLeft>
+                            <PaddingRight>3pt</PaddingRight>
+                            <PaddingTop>3pt</PaddingTop>
+                            <PaddingBottom>3pt</PaddingBottom>
+                            <Border />
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>10.0pt</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextboxElectronicDigitalSignature1">
+                          <KeepTogether>false</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>3pt</PaddingLeft>
+                            <PaddingRight>3pt</PaddingRight>
+                            <PaddingTop>3pt</PaddingTop>
+                            <PaddingBottom>3pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextboxElectronicDigitalSignature37">
+                          <KeepTogether>true</KeepTogether>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>3pt</PaddingLeft>
+                            <PaddingRight>3pt</PaddingRight>
+                            <PaddingTop>3pt</PaddingTop>
+                            <PaddingBottom>3pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="TablixGroupElectronicDigitalSignature" />
+                  <TablixMembers>
+                    <TablixMember>
+                      <Visibility>
+                        <Hidden>=IIF(Parameters!ShowEcp.Value = False OR RowNumber("ПодписантыОтчёта1OutputTable")=0,true,false)</Hidden>
+                      </Visibility>
+                    </TablixMember>
+                    <TablixMember>
+                      <Visibility>
+                        <Hidden>=IIF(Parameters!ShowEcp.Value = False OR RowNumber("ПодписантыОтчёта1OutputTable")=0,true,false)</Hidden>
+                      </Visibility>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Left>0.0pt</Left>
+            <Top>170.9pt</Top>
+            <Height>12pt</Height>
+            <Width>85pt</Width>
+          </Tablix>
+        </ReportItems>
+      </Body>
+      <Width>776.9784pt</Width>
+      <Page>
+        <PageHeader>
+          <Height>0.0pt</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>false</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="TextboxHeadDocumentStatus">
+              <Height>5pt</Height>
+              <Width>500pt</Width>
+              <Left>0.0pt</Left>
+              <Top>0.0pt</Top>
+              <Style></Style>
+              <CanGrow>true</CanGrow>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Parameters![DocumentStatus].Value</Value>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Visibility>
+                <Hidden>=IIF(Parameters!DocumentStatus.Value="",true,false)</Hidden>
+              </Visibility>
+            </Textbox>
+          </ReportItems>
+        </PageHeader>
+        <PageFooter>
+          <Height>28.0pt</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox17">
+              <Height>15.01pt</Height>
+              <Width>776.65pt</Width>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!PageNumber</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Left>0.80pt</Left>
+              <Top>6.20pt</Top>
+              <Style />
+            </Textbox>
+          </ReportItems>
+        </PageFooter>
+        <LeftMargin>1cm</LeftMargin>
+        <RightMargin>1cm</RightMargin>
+        <BottomMargin>1cm</BottomMargin>
+        <TopMargin>1cm</TopMargin>
+        <PageWidth>29.69cm</PageWidth>
+        <PageHeight>21.01cm</PageHeight>
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Variables>
+    <Variable Name="EVReplacer">
+      <Value>-</Value>
+      <Writable>true</Writable>
+    </Variable>
+  </Variables>
+  <ReportParameters>
+    <ReportParameter Name="EVReplacerParameter">
+      <DataType>String</DataType>
+      <Prompt>Пустышка</Prompt>
+      <Hidden>true</Hidden>
+      <DefaultValue>
+        <Values>
+          <Value>-</Value>
+        </Values>
+      </DefaultValue>
+    </ReportParameter>
+    <ReportParameter Name="CenterEmpty">
+      <DataType>String</DataType>
+      <Prompt>Центрировать пустышку</Prompt>
+      <Hidden>true</Hidden>
+      <DefaultValue>
+        <Values>
+          <Value>false</Value>
+        </Values>
+      </DefaultValue>
+    </ReportParameter>
+    <ReportParameter Name="DynamicFontSize">
+      <DataType>String</DataType>
+      <Prompt>Динамический размер шрифта</Prompt>
+      <Hidden>true</Hidden>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="ShowDocumentStatus">
+      <DataType>Boolean</DataType>
+      <Prompt>ShowDocumentStatus</Prompt>
+      <Hidden>true</Hidden>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="DocumentStatus">
+      <DataType>String</DataType>
+      <Prompt>DocumentStatus</Prompt>
+      <Hidden>true</Hidden>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="ShowEcp">
+      <DataType>Boolean</DataType>
+      <Prompt>ShowEcp</Prompt>
+      <Nullable>true</Nullable>
+      <Hidden>true</Hidden>
+    </ReportParameter>
+  </ReportParameters>
+  <DataSets>
+    <DataSet Name="Form_539_Data" Alias="Form_539_Data [539|Строки документа]" InternalName="539|Data">
+      <Query>
+        <DataSourceName>SkifDataSource</DataSourceName>
+        <Timeout>1000</Timeout>
+        <CommandText></CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Column_6169DE94_EC3F_209F_3934_0A316E6DAB82" RusAlias="ИСП">
+          <DataField>Column_6169DE94_EC3F_209F_3934_0A316E6DAB82</DataField>
+          <rd:TypeName Group="data" SubOrder="3">decimal</rd:TypeName>
+        </Field>
+        <Field Name="Column_A19ED520_A4E0_CD61_F845_E8307F6757D3" RusAlias="УТВ">
+          <DataField>Column_A19ED520_A4E0_CD61_F845_E8307F6757D3</DataField>
+          <rd:TypeName Group="data" SubOrder="2">decimal</rd:TypeName>
+        </Field>
+        <Field Name="Period_Name" RusAlias="Период.Наименование">
+          <DataField>Period_Name</DataField>
+          <rd:TypeName Group="head" SubOrder="317">varchar</rd:TypeName>
+        </Field>
+        <Field Name="Source_Name" RusAlias="Источник.Наименование">
+          <DataField>Source_Name</DataField>
+          <rd:TypeName Group="head" SubOrder="356">varchar</rd:TypeName>
+        </Field>
+        <Field Name="ПОЛМБ_554_Name" RusAlias="ПОЛМБ_554.Наименование показателя">
+          <DataField>ПОЛМБ_554.Name</DataField>
+          <rd:TypeName Group="spr" SubOrder="1">varchar</rd:TypeName>
+        </Field>
+        <Field Name="ПОЛМБ_554_page" RusAlias="ПОЛМБ_554.Код листа">
+          <DataField>ПОЛМБ_554.page</DataField>
+          <rd:TypeName Group="other" SubOrder="1">int</rd:TypeName>
+        </Field>
+        <Field Name="ПОЛМБ_554_row" RusAlias="ПОЛМБ_554.Код строки">
+          <DataField>ПОЛМБ_554.row</DataField>
+          <rd:TypeName Group="other" SubOrder="1">int</rd:TypeName>
+        </Field>
+        <Field Name="ПОЛМБ_554_Sim_Code" RusAlias="ПОЛМБ_554.Код показателя  сивольный">
+          <DataField>ПОЛМБ_554.Sim_Code</DataField>
+          <rd:TypeName Group="other" SubOrder="1">varchar</rd:TypeName>
+        </Field>
+        <Field Name="SKIF_SpecialCalculatedField" RusAlias="SKIF_SpecialCalculatedField">
+          <DataField>SKIF_SpecialCalculatedField</DataField>
+          <rd:TypeName Group="other" SubOrder="1">boolean</rd:TypeName>
+        </Field>
+        <Field Name="Column_A19ED520_A4E0_CD61_F845_E8307F6757D3__crossing" RusAlias="УТВ__crossing">
+          <DataField>Column_A19ED520_A4E0_CD61_F845_E8307F6757D3__crossing</DataField>
+        </Field>
+        <Field Name="Column_6169DE94_EC3F_209F_3934_0A316E6DAB82__crossing" RusAlias="ИСП__crossing">
+          <DataField>Column_6169DE94_EC3F_209F_3934_0A316E6DAB82__crossing</DataField>
+        </Field>
+      </Fields>
+      <rd:Crestables>
+        <rd:Crestable Base="Column_A19ED520_A4E0_CD61_F845_E8307F6757D3" />
+        <rd:Crestable Base="Column_6169DE94_EC3F_209F_3934_0A316E6DAB82" />
+      </rd:Crestables>
+      <rd:SKIF_SpecialCalculatedField>true</rd:SKIF_SpecialCalculatedField>
+    </DataSet>
+    <DataSet Name="ПодписантыОтчёта1OutputTable" Alias="ПодписантыОтчёта1OutputTable" InternalName="ПодписантыОтчёта1OutputTable">
+      <Query>
+        <DataSourceName>GeneratedTablesContainer</DataSourceName>
+        <Timeout>1000</Timeout>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="Digest_Algorithm_Version" RusAlias="Digest_Algorithm_Version">
+          <DataField>Digest_Algorithm_Version</DataField>
+        </Field>
+        <Field Name="Digital_Signature" RusAlias="Digital_Signature">
+          <DataField>Digital_Signature</DataField>
+        </Field>
+        <Field Name="ecp" RusAlias="ecp">
+          <DataField>ecp</DataField>
+        </Field>
+        <Field Name="ecp_error" RusAlias="ecp_error">
+          <DataField>ecp_error</DataField>
+        </Field>
+        <Field Name="EMail" RusAlias="Адрес электронной почты">
+          <DataField>EMail</DataField>
+        </Field>
+        <Field Name="First_Name" RusAlias="Имя">
+          <DataField>First_Name</DataField>
+        </Field>
+        <Field Name="Form_ID" RusAlias="Form_ID">
+          <DataField>Form_ID</DataField>
+        </Field>
+        <Field Name="FormVersion_ID" RusAlias="FormVersion_ID">
+          <DataField>FormVersion_ID</DataField>
+        </Field>
+        <Field Name="ID" RusAlias="ID">
+          <DataField>ID</DataField>
+        </Field>
+        <Field Name="Last_Name" RusAlias="Фамилия">
+          <DataField>Last_Name</DataField>
+        </Field>
+        <Field Name="Name" RusAlias="ФИО">
+          <DataField>Name</DataField>
+        </Field>
+        <Field Name="Object_Container_ID" RusAlias="Object_Container_ID">
+          <DataField>Object_Container_ID</DataField>
+        </Field>
+        <Field Name="Object_ID" RusAlias="Object_ID">
+          <DataField>Object_ID</DataField>
+        </Field>
+        <Field Name="Object_Instance_ID" RusAlias="Object_Instance_ID">
+          <DataField>Object_Instance_ID</DataField>
+        </Field>
+        <Field Name="Object_Type" RusAlias="Object_Type">
+          <DataField>Object_Type</DataField>
+        </Field>
+        <Field Name="Position" RusAlias="Должность">
+          <DataField>Position</DataField>
+        </Field>
+        <Field Name="Organization" RusAlias="Организация">
+          <DataField>Organization</DataField>
+        </Field>
+        <Field Name="Department" RusAlias="Департамент">
+          <DataField>Department</DataField>
+        </Field>
+        <Field Name="Post_Code" RusAlias="Код должности">
+          <DataField>Post_Code</DataField>
+        </Field>
+        <Field Name="Post_Description" RusAlias="Описание должности">
+          <DataField>Post_Description</DataField>
+        </Field>
+        <Field Name="Post_ID" RusAlias="Post_ID">
+          <DataField>Post_ID</DataField>
+        </Field>
+        <Field Name="Post_Order_Number" RusAlias="Post_Order_Number">
+          <DataField>Post_Order_Number</DataField>
+        </Field>
+        <Field Name="Room_Num" RusAlias="Номер кабинета">
+          <DataField>Room_Num</DataField>
+        </Field>
+        <Field Name="Second_Name" RusAlias="Отчество">
+          <DataField>Second_Name</DataField>
+        </Field>
+        <Field Name="Source_Code" RusAlias="Source_Code">
+          <DataField>Source_Code</DataField>
+        </Field>
+        <Field Name="Subject_ID" RusAlias="Subject_ID">
+          <DataField>Subject_ID</DataField>
+        </Field>
+        <Field Name="Subject_Name" RusAlias="Subject_Name">
+          <DataField>Subject_Name</DataField>
+        </Field>
+        <Field Name="Tel" RusAlias="Телефон">
+          <DataField>Tel</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <DataSources>
+    <DataSource Name="SkifDataSource">
+      <DataSourceReference>SkifDataSource</DataSourceReference>
+      <rd:DataProviderID>56156465-5E6A-4A40-A887-D94177E76C80</rd:DataProviderID>
+    </DataSource>
+    <DataSource Name="GeneratedTablesContainer">
+      <DataSourceReference>GeneratedTablesContainer</DataSourceReference>
+      <rd:DataProviderID>56156465-5E6A-4A40-A887-D94177E76C80</rd:DataProviderID>
+    </DataSource>
+  </DataSources>
+  <Description></Description>
+</Report>
